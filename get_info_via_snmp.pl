@@ -53,7 +53,7 @@ my %data_oid;
 use constant OID => 1;
 
 #SNMP
-use constant SNMP_COMMUNITY	=> 'SNMP_public';
+use constant SNMP_COMMUNITY	=> 'SNMP_COMMUNITY';
 use constant SNMP_VERSION	=> 1;
 use constant SNMP_RETRIES	=> '2';
 use constant SNMP_REMOTEPORT	=> '161';
@@ -65,10 +65,10 @@ use constant ZABBIX_PASSWORD	=> 'zabbix';
 use constant ZABBIX_SERVER	=> 'zabbix';
 
 #MAIL
-use constant MAIL_SERVER	=> 'nsk-mail-01';
-use constant MAIL_FROM		=> 'zabbix@cwc.ru';
+use constant MAIL_SERVER	=> 'mail_server';
+use constant MAIL_FROM		=> 'zabbix@example.com';
 use constant MAIL_SUBJECT	=> 'Report about network devices';
-use constant MAIL_RECIPIENT	=> 'nesterov.a@cwc.ru';
+use constant MAIL_RECIPIENT	=> 'nesterov.a@example.com';
 
 #==========================================================================
 #Global variables
